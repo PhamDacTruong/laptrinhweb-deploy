@@ -42,21 +42,21 @@ public class MainController {
 
     @GetMapping("/contact")
     public String contact() {
-        return "/lienhe";
+        return "lienhe";
     }
     @GetMapping("/blog")
     public String blog() {
-        return "/blog";
+        return "blog";
     }
     @GetMapping("/gioithieu")
     public String gioithieu() {
-        return "/gioithieu";
+        return "gioithieu";
     }
 
 
     @GetMapping("/login")
     public String login() {
-        return "/sign-in";
+        return "sign-in";
     }
 
     @GetMapping("/logout")
