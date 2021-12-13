@@ -39,7 +39,7 @@ public class AdminController {
     private PasswordEncoder passwordEncoder;
     @GetMapping()
     public String adminPage(){
-        return "/admin";
+        return "admin";
     }
     @GetMapping("/product") //tra lai danh sach san pham cua shop
     public String adminProducts(Model model){
